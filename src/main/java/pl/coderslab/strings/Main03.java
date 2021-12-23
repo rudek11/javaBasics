@@ -3,11 +3,13 @@ package pl.coderslab.strings;
 public class Main03 {
 
     public static void main(String[] args) {
-
+    String str = "Coderslab";
+        System.out.println(firstHalf(str));
 
     }
 
     static String firstHalf(String str){
-        return "";
+
+        return str.substring(0,str.length()/2);
     }
 }
